@@ -147,10 +147,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 34
-	neutrality = 34
+	democratic = 30
+	neutrality = 30
 	communism = 8
-	fascism = 24
+	fascism = 20
+	monarchist = 4
+	progressive = 4
+	junta = 4
 }
 
 1939.1.1 = {
@@ -161,11 +164,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 24
-	neutrality = 34
-	communism = 8
-	fascism = 34
-}
+	democratic = 4
+	neutrality = 4
+	communism = 4
+	fascism = 40
+	monarchist = 20
+	progressive = 8
+	junta = 20
 }
 
 set_convoys = 25
