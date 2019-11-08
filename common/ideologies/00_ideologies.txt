@@ -1,29 +1,119 @@
 ideologies = {
 	
-	democratic = {
+	conservative = {
 	
 		types = {
 			
 			conservatism = {
 			}
+		}
 		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+			"FACTION_NAME_CONSERVATIVE_3"
+			"FACTION_NAME_CONSERVATIVE_4"
+			"FACTION_NAME_CONSERVATIVE_5"
+			"FACTION_NAME_CONSERVATIVE_6"
+		}
+		
+		color = { 5 180 205 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+	liberal = {
+	
+		types = {
 			liberalism = {
 			}
+		}
 		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+		
+		color = { 242 194 73 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+	socialism = {
+	
+		types = {
 			socialism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"FACTION_NAME_SOCIALISM_1"
+			"FACTION_NAME_SOCIALISM_2"
+			"FACTION_NAME_SOCIALISM_3"
+			"FACTION_NAME_SOCIALISM_4"
+			"FACTION_NAME_SOCIALISM_5"
+			"FACTION_NAME_SOCIALISM_6"
 		}
 		
-		color = { 0 0 255 }
+		color = { 220 100 170 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -72,9 +162,6 @@ ideologies = {
 			
 			anti_revisionism = {
 			}
-			
-			anarchist_communism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -85,7 +172,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 180 20 20 }
+		color = { 156 46 46 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -100,6 +187,43 @@ ideologies = {
 		
 		modifiers = {
 			puppet_cost_factor = -0.3
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	anarchy = {
+		
+		types = {
+			anarchist_communism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHY_1"
+			"FACTION_NAME_ANARCHY_2"
+			"FACTION_NAME_ANARCHY_3"
+			"FACTION_NAME_ANARCHY_4"
+			"FACTION_NAME_ANARCHY_5"
+		}
+		
+		color = { 120 5 5 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		modifiers = {
+			
 		}
 		
 		faction_modifiers = {
@@ -133,7 +257,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 80 40 0 }
+		color = { 100 60 15 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
