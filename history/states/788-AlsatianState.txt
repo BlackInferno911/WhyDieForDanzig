@@ -1,0 +1,32 @@
+state={
+	id=788
+	name="STATE_788" # Next to Lorraine
+	manpower = 1517500
+	
+	state_category = city
+	
+	resources={
+		steel=28 # was: 48
+	}
+
+	history={
+		owner = ALS
+		victory_points = {
+			9642 5 
+		}
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = FRA
+		add_core_of = ALS
+	}
+
+	provinces={
+		11642 11516 521 698
+	}
+}
