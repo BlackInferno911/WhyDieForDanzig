@@ -1,0 +1,21 @@
+state={
+	id=791
+	name="STATE_791"
+	state_category = rural
+	history={
+		owner = KRA
+			buildings = {
+				infrastructure = 5
+				air_base = 3
+
+			}
+			add_core_of = POL
+			add_core_of = KRA
+
+	}
+	provinces={
+		9427 13205 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+}

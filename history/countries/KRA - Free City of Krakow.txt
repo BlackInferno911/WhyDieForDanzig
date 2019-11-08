@@ -1,0 +1,29 @@
+capital = 794
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+create_country_leader = {
+	name = "Henryk Dobrowolski"
+	desc = "POLITICS_MATYAS_RAKOSI_DESC"
+	picture = "Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
