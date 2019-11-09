@@ -50,16 +50,17 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 59
+	socialism = 59
 	fascism = 2
 	communism = 29
-	neutrality = 10
+	neutrality = 6
+	junta = 4
 }
 
 create_country_leader = {

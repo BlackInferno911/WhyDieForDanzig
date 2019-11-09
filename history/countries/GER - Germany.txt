@@ -105,15 +105,17 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = junta
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	progressive = 10
+	liberal = 10
+	junta = 60
+	communism = 15
+	conservative = 5
 }
 
 declare_war_on = {

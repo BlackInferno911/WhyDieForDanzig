@@ -7,14 +7,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
+	liberal = 35
+	progressive = 35
+	conservative = 20
+	socialism = 9
+	communism = 1
 }
 
 create_country_leader = {

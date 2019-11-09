@@ -7,14 +7,16 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = anarchy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
+	junta = 15
+	communism = 10
+	anarchy = 75
 }
 
 create_country_leader = {
@@ -22,8 +24,8 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Portrait_Alsace_Charles_de_Gaulle.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = anarchy
 	traits = {
-		#
+		#anarchist_communism
 	}
 }

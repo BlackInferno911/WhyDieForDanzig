@@ -14,7 +14,9 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 100
+	fascism = 90
+	junta = 7
+	conservative = 3
 }
 
 create_country_leader = {
