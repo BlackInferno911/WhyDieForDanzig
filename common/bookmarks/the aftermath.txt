@@ -96,6 +96,42 @@ bookmarks = {
 				POL_seek_accommodation_with_germany
 			}
 		}
+		"SIA"={
+			minor = yes
+			history = "SIA_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BAV"={
+			minor = yes
+			history = "BAV_BLITZKRIEG_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SAV"={
+			minor = yes
+			history = "SAV_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ALS"={
+			minor = yes
+			history = "ALS_BLITZKRIEG_DESC"
+			ideology = anarchy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

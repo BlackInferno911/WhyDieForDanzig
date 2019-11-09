@@ -535,31 +535,3 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-BAV = {
-	color = rgb { 176 72 40 }
-	color_ui = rgb { 176 72 40 }
-}
-KRA = {
-	color = rgb { 0 112 191 }
-	color_ui = rgb { 0 112 191 }
-}
-GAL = {
-	color = rgb { 255 204 153 }
-	color_UI = rgb { 255 204 153 }
-}
-ALS = {
-	color = rgb { 152 0 0 }
-	color_UI = rgb { 152 0 0 }
-}
-SAV = {
-	color = rgb { 224 165 153 }
-	color_UI = rgb { 224 165 153 }
-}
-ITR = {
-	color = rgb { 207 83 64 }
-	color_UI = rgb { 207 83 64 }
-}
-GRV = {
-	color = rgb { 53 75 99 }
-	color_UI = rgb { 53 75 99 }
-}
