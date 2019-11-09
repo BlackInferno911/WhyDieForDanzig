@@ -1,21 +1,24 @@
 
 state={
-	id=53
+	id=789
 	name="STATE_53"
-	manpower = 1453365
+	manpower = 756365
 	
 	state_category = city
 
 	history={
-		owner = GER
+		owner = BAV
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = GER
 		add_core_of = BAV
+		add_core_of = GER
+		victory_points = {
+			9515 3
+		}
 	}
 
 	provinces={
-		571 586 3299 3541 3571 11497
+		532 9681 6725 9515 11653 3688 707
 	}
 }

@@ -1,0 +1,38 @@
+
+state={
+	id=790
+	name="STATE_790"
+	manpower = 975377
+	
+	state_category = town
+	
+	resources={
+		steel=1 # was: 8
+		aluminium=5 # was: 1
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			732 10
+		}
+		add_core_of = AUS
+		add_core_of = BAV
+		add_core_of = GER
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = AUS
+			add_core_of = BAV
+			add_core_of = GER
+		}
+	}
+	provinces={
+		732 6552 6723 9527 3718 6739
+	}
+}

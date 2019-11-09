@@ -1,27 +1,28 @@
-state={
-	id=735
-	name="STATE_735"
 
-	state_category = town
+state={
+	id=792
+	name="STATE_792"
+
+	state_category = metropolis
 
 	history={
 		owner = SAV
 		add_core_of = FRA
 		add_core_of = SAV
 		victory_points = {
-			778 1 
+			9909 25
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			9909 = {
-				naval_base = 2
+				naval_base = 6
 			}		
 		}
 	}
 
 	provinces={
-		764 778 3764 6609 9603 9736 9745 11573 
+		9909 3959 6975 3961
 	}
-	manpower=807500
+	manpower=117500
 	buildings_max_level_factor=1.000
 }

@@ -17,7 +17,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATIVE_6"
 		}
 		
-		color = { 5 180 205 }
+		color = { 3 119 252 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
