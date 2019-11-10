@@ -1,0 +1,33 @@
+
+state={
+	id=797
+	name="Krakow Metro"
+	resources={
+		steel=6.000
+		oil=1.000
+	}
+
+	history={
+		owner = KRA
+		victory_points = {
+			9427 25
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 5
+			industrial_complex = 2
+			air_base = 4
+
+		}
+		add_core_of = KRA
+		add_core_of = POL
+
+	}
+
+	provinces={
+		9427 13205 9412
+	}
+	manpower=3862800
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

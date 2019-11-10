@@ -1,0 +1,33 @@
+
+state={
+	id=798
+	name="North Galacia"
+	resources={
+		steel=5.000
+		oil=3.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			442 10
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		add_core_of = POL
+		add_core_of = GAL
+
+	}
+
+	provinces={
+		9494 442 6499 11507 6522
+	}
+	manpower=694200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

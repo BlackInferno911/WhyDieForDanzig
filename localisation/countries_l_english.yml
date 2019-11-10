@@ -2207,7 +2207,27 @@
  SAV_conservative_ADJ:0 "Savoyard"
  ITR_fascism:0 "Italian Social Republic"
  ITR_fascism_ADJ:0 "Italian"
+ ####### MODEL FOR NAMES #########
+
+ ENG_junta:0 "England"
+ ENG_junta_ADJ:0 "English"
+ ENG_socialism:0 "United Kingdom"
+ ENG_socialism_ADJ:0 "English"
+ ENG_progressive:0 "United Kingdom"
+ ENG_progressive_ADJ:0 "British"
+ ENG_fascism:0 "England"
+ ENG_fascism_ADJ:0 "English"
+ ENG_communism:0 "United Kingdom"
+ ENG_communism_ADJ:0 "English"
+ ENG_conservative:0 "United Kingdom"
+ ENG_conservative_ADJ:0 "British"
+ ENG_monarchist:0 "United Kingdom of Britain, Scotland, Wales, and Northern Ireland"
+ ENG_monarchist_ADJ:0 "British"
+
+ ###### OTHERS ###################
  USA_progressive:0 "United States"
  USA_progressive_ADJ:0 "American"
  POL_socialism:0 "Polish SSR"
+ POL_socialism_ADJ:0 "Polish"
  GER_junta:0 "Germany"
+ GER_junta_ADJ:0 "German"
