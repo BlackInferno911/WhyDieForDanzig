@@ -1,13 +1,13 @@
 
 state={
-	id=209
-	name="STATE_209" # Pskov
-	manpower = 639587
+	id=796
+	name="Russian Latvia"
+	manpower = 1264867
 	
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = LAT
 		victory_points = {
 			11202 3
 		}
@@ -16,9 +16,11 @@ state={
 			air_base = 4
 		}
 		add_core_of = SOV
+		add_core_of = LAT
+		add_core_of = EST
 	}
 
 	provinces={
-		95 3053 6324 9120 9319 9408 11097 11202 11304 11392 
+		415 592 3310 3333 11259 3219 6326 6371 6249
 	}
 }
