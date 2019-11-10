@@ -30,8 +30,8 @@ BEL = { color 	 = rgb { 217 198 28  }
 HOL = {	color = rgb { 186 96 0 }
 		color_ui = rgb { 186 96 0 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 33 148 84 }
+		color_ui = rgb { 33 148 84 }
 }
 POL = {
 	color = rgb { 237 128 143 }
@@ -473,6 +473,18 @@ ISR = {
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
+}
+BAV = {
+	color = rgb { 176 72 40 }
+	color_ui = rgb { 176 72 40 }
+}
+SAV = {
+	color = rgb { 224 165 153 }
+	color_ui = rgb { 224 165 153 }
+}
+ALS = {
+	color = rgb { 224 165 153 }
+	color_ui = rgb { 224 165 153 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
