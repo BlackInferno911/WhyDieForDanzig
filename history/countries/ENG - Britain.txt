@@ -183,16 +183,6 @@ if = {
 	}
 
 	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		chamberlain_appeaser rearmer
-	}
-}
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -361,15 +351,14 @@ create_country_leader = {
 	}
 }
 
-
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
+	name = "George VI"
+	desc = "POLITICS_GEORGE_VI_DESC"
+	picture = "Portrait_Britain_George_VI.dds"
+	expire = "1965.1.1"
+	ideology = monarchist_subtype
 	traits = {
-		conservative_grandee
+		#
 	}
 }
 
