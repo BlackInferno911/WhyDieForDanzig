@@ -288,7 +288,7 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = progressive
+		ruling_party = conservative
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -296,13 +296,35 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
+	name = "Strom Thurmond"
+	desc = "POLITICS_STROM_THURMOND_DESC"
+	picture = "Portrait_USA_STROM_THURMOND.dds"
+	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Thomas E. Dewey"
+	desc = "POLITICS_THOMAS_DEWEY_DESC"
+	picture = "Portrait_USA_Thomas_Dewey.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
 		dislikes_germany
+	}
+}
+
+create_country_leader = {
+	name = "Henry A. Wallace"
+	desc = "POLITICS_HENRY_WALLACE_DESC"
+	picture = "Portrait_USA_Henry_Wallace.dds"
+	expire = "1965.1.1"
+	ideology = progressive_subtype
+	traits = {
+		#
 	}
 }
 
