@@ -26,6 +26,9 @@
  communism:0 "Communist"
  communism_noun:0 "Communism"
  communism_desc:0 "Collectivist Society"
+ neutrality:0 "Authoritarian"
+ neutrality_noun:0 "Authoritarian"
+ neutrality_desc:0 "Centralized Dictatorship"
 
 
  ######################################################################

@@ -21,11 +21,11 @@ FRA = {
 	color_ui = rgb { 4 43 143 }
 }
 LUX = {
-	color = rgb { 65 175 179 }
-	color_ui = rgb { 85 228 233 }
+	color = rgb { 123 179 163 }
+	color_ui = rgb { 123 179 163 }
 }
-BEL = { color 	 = rgb { 217 198 28  }
-		color_ui = rgb { 217 198 28 }
+BEL = { color 	 = rgb { 133 25 25 }
+		color_ui = rgb { 133 25 25 }
 	  }
 HOL = {	color = rgb { 186 96 0 }
 		color_ui = rgb { 186 96 0 }
@@ -58,8 +58,8 @@ SPR = {
 	color_ui = rgb { 209 174 69 }
 }
 ITA = {
-	color = rgb { 110 161 96 }
-	color_ui = rgb { 110 161 96 }
+	color = rgb { 125 161 129 }
+	color_ui = rgb { 125 161 129 }
 }
 ROM = {
 	color = rgb { 115 31 0 }
@@ -475,16 +475,20 @@ CSA = {
 	color_ui = rgb { 186 205 219 }
 }
 BAV = {
-	color = rgb { 176 72 40 }
-	color_ui = rgb { 176 72 40 }
+	color = rgb { 105 86 69 }
+	color_ui = rgb { 105 86 69 }
 }
 SAV = {
-	color = rgb { 224 165 153 }
-	color_ui = rgb { 224 165 153 }
+	color = rgb { 242 90 39 }
+	color_ui = rgb { 242 90 39 }
 }
 ALS = {
-	color = rgb { 224 165 153 }
-	color_ui = rgb { 224 165 153 }
+	color = rgb { 217 193 39 }
+	color_ui = rgb { 217 193 39 }
+}
+BOS = {
+	color = rgb { 79 115 81 }
+	color_ui = rgb { 79 115 81 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
