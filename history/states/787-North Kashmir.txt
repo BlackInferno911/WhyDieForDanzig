@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			1910 1
 		}
-		owner = RAJ
+		owner = PAK
 		buildings = {
 			infrastructure = 2
 		}
@@ -19,6 +19,6 @@ state={
 	}
 
 	provinces={
-		1910 2041 2084 10821 
+		1910 2041 10821 
 	}
 }
