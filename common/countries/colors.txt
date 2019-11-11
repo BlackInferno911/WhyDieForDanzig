@@ -30,8 +30,8 @@ BEL = { color 	 = rgb { 133 25 25 }
 HOL = {	color = rgb { 186 96 0 }
 		color_ui = rgb { 186 96 0 }
 }
-CZE = {	color = rgb { 33 148 84 }
-		color_ui = rgb { 33 148 84 }
+CZE = {	color = rgb { 150 189 60 }
+		color_ui = rgb { 150 189 60 }
 }
 POL = {
 	color = rgb { 237 128 143 }
@@ -62,12 +62,12 @@ ITA = {
 	color_ui = rgb { 125 161 129 }
 }
 ROM = {
-	color = rgb { 115 31 0 }
-	color_ui = rgb { 115 31 0 }
+	color = rgb { 133 44 0 }
+	color_ui = rgb { 133 44 0 }
 }
 YUG = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 47 48 130 }
+	color_ui = rgb { 47 48 130 }
 }
 SWI = {
 	color = rgb { 220 220 220 }
@@ -78,8 +78,8 @@ TUR = {
 	color_ui = rgb { 18 84 0 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
+	color = rgb { 91 148 179 }
+	color_ui = rgb { 91 148 179 }
 }
 ALB = {
 	color = rgb { 203 181 37 }
@@ -110,8 +110,8 @@ IRE = {
 	color_ui = rgb { 9 171 29 }
 }
 HUN = {
-	color = rgb { 46 102 93 }
-	color_ui = rgb { 46 102 93 }
+	color = rgb { 57 130 40 }
+	color_ui = rgb { 57 130 40 }
 }
 AFG = {
 	color = rgb { 97 75 37 }
@@ -303,8 +303,8 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 166 70 145 }
+	color_ui = rgb { 166 70 145 }
 }
 
 PRC = {
