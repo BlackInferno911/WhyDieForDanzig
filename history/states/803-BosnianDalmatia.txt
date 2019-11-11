@@ -1,0 +1,23 @@
+
+state={
+	id=803
+	name="Bosnian Dalmatia"
+	manpower = 188900
+	
+	state_category = town
+	
+	history={
+		owner = BOS
+		buildings = {
+			infrastructure = 2
+			3868 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CRO
+		add_core_of = BOS
+	}
+	provinces={
+		3868 6889 11816 9894 6942 6957 3985 9586 6614 11845
+	}
+}

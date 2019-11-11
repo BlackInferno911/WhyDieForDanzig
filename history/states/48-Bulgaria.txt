@@ -4,7 +4,8 @@ state={
 	name="STATE_48"
 	manpower = 1891500
 	resources={
-		aluminium=1 # was: 2
+		aluminium=1
+		steel=3
 	}
 	
 	
@@ -24,6 +25,6 @@ state={
 	}
 
 	provinces={
-		793 935 949 965 3908 3971 6857 9771 9818 11754 
+		793 935 949 965 3908 3971 9771 11754 
 	}
 }
