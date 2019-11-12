@@ -4,19 +4,19 @@ state={
 	name="STATE_450"
 	manpower = 82535
 	
-	state_category = enclave
+	state_category = town
 
 	history={
-		owner = ITA
+		owner = EGY
 		
 		victory_points = {
 			11954 3 
 		}
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 2
 			11954 = {
-				naval_base = 1
+				naval_base = 4
 			}
 		}
 		add_core_of = LBA

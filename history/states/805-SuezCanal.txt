@@ -1,13 +1,12 @@
-state=
-{
-	id=446
-	name="STATE_446"
+state={
+	id=805
+	name="Suez Canal"
 	manpower = 6586596
 	
 	state_category = city
 
 	history={
-		owner = EGY
+		owner = SUZ
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -16,25 +15,16 @@ state=
 				naval_base = 2
 			}
 		}
-		
 		victory_points = {
-			7011 20
-		}
-		victory_points = {
-			12049 5
-		}
-		victory_points = {
-			3996 5
-		}
-		victory_points = {
-			4073 3
+			4073 8
 		}
 
 		add_core_of = EGY
+		add_core_of = SUZ
 
 	}
 
 	provinces={
-		1068 3996 4055 4143 7011 7188 10005 10031 12004 992 7117
+		4073 12049 9947 1155
 	}
 }
