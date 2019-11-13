@@ -1,0 +1,20 @@
+capital = 1
+
+set_stability = 0.29
+set_war_support = 0.23
+set_politics = {
+	ruling_party = junta
+	last_election = "1946.6.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 2
+	anarchy = 5
+	socialism = 2
+	progressive = 1
+	liberal = 20
+	junta = 30
+	neutrality = 20
+	conservative = 20
+}

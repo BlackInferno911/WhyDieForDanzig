@@ -6,7 +6,7 @@ state={
 		victory_points = {
 			11399 1 
 		}
-		owner = POL
+		owner = POG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -14,6 +14,7 @@ state={
 
 		}
 		add_core_of = POL
+		add_core_of = POG
 		1939.1.1 = {
 			buildings = {
 				air_base = 3

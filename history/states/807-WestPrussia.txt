@@ -1,9 +1,9 @@
 state={
-	id=97
-	name="STATE_97"
+	id=807
+	name="West Prussia"
 
 	history={
-		owner = POG
+		owner = POL
 		victory_points = {
 			11301 3
 		}
@@ -25,9 +25,9 @@ state={
 	}
 
 	provinces={
-		3254 400 11357 11329 11274
+		290 347 11247 11301
 	}
-	manpower=357200
+	manpower=557200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
