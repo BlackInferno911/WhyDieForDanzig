@@ -204,15 +204,18 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 69
+	socialism = 36
+	conservative = 14
+	liberal = 19
 	fascism = 1
-	communism = 30
+	communism = 15
+	anarchy = 15
 }
 
 add_ideas = {
@@ -226,13 +229,13 @@ add_ideas = {
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	name = "Leon Blum"
+	desc = "POLITICS_LEON_BLUM_DESC"
+	picture = "Portrait_France_Leon_Blum.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		stout_defender
+		#
 	}
 }
 

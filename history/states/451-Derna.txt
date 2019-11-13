@@ -2,12 +2,12 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
+	manpower = 163628
 	
 	state_category = wasteland
 
 	history={
-		owner = ITA
+		owner = EGY
 		
 		victory_points = {
 			1130 5 

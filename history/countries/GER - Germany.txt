@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_DEUTSCHER_HEILSBUND_DESC"
 	picture = "Portrait_Germany_Deutscher_Heilsbund.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = junta_subtype
 	traits = {
 	}
 }

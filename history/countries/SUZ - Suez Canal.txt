@@ -1,0 +1,7 @@
+capital = 1
+
+set_popularities = {
+	neutrality = 80
+	liberal = 10
+	socialism = 10
+}
