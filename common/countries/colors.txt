@@ -24,8 +24,9 @@ LUX = {
 	color = rgb { 123 179 163 }
 	color_ui = rgb { 123 179 163 }
 }
-BEL = { color 	 = rgb { 133 25 25 }
-		color_ui = rgb { 133 25 25 }
+BEL = { color 	 = rgb { 217 193 39 }
+		color_ui = rgb { 217 193 39 }
+		#color_ui = rgb { 133 25 25 }
 	  }
 HOL = {	color = rgb { 186 96 0 }
 		color_ui = rgb { 186 96 0 }
@@ -473,18 +474,6 @@ ISR = {
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
-}
-BAV = {
-	color = rgb { 105 86 69 }
-	color_ui = rgb { 105 86 69 }
-}
-SAV = {
-	color = rgb { 242 90 39 }
-	color_ui = rgb { 242 90 39 }
-}
-ALS = {
-	color = rgb { 217 193 39 }
-	color_ui = rgb { 217 193 39 }
 }
 BOS = {
 	color = rgb { 79 115 81 }

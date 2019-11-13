@@ -1,0 +1,27 @@
+state={
+	id=806
+	name="Kalimpong"
+	manpower = 76842
+	
+	state_category = rural
+
+	history={
+		owner = NEP
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+			12338 3
+		}
+
+		add_core_of = NEP
+		add_core_of = SIN
+
+	}
+
+	provinces={
+		1656 12338 4435
+	}
+}

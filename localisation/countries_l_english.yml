@@ -2204,7 +2204,7 @@
  ITR_fascism_ADJ:0 "Italian"
  ####### MODEL FOR NAMES #########
 
- ENG_junta:0 "England"
+ ENG_junta:0 "Britain"
  ENG_junta_ADJ:0 "English"
  ENG_socialism:0 "United Kingdom"
  ENG_socialism_ADJ:0 "English"
@@ -2218,6 +2218,8 @@
  ENG_conservative_ADJ:0 "British"
  ENG_monarchist:0 "United Kingdom of Britain, Scotland, Wales, and Northern Ireland"
  ENG_monarchist_ADJ:0 "British"
+ ENG_anarchy:0 "Britain"
+ ENG_anarchy_ADJ:0 "British"
 
  ###### OTHERS ###################
  USA_progressive:0 "United States"
@@ -2232,3 +2234,15 @@
  SUZ_communism:0 "Suez Union"
  SUZ_neutrality:0 "Suez"
  SUZ_conservative:0 "Suez"
+ SIN_communism:0 "Commune of India"
+ SIN_socialism:0 "Commune of India"
+ SIN_liberal:0 "South India"
+ SIN_progressive:0 "Commune of India"
+ SIN_anarchy:0 "Commune of India"
+ SIN_conservative:0 "South India"
+ SIN_communism_ADJ:0 "Southern Indian"
+ SIN_socialism_ADJ:0 "Southern Indian"
+ SIN_liberal_ADJ:0 "Southern Indian"
+ SIN_progressive_ADJ:0 "Southern Indian"
+ SIN_anarchy_ADJ:0 "Southern Indian"
+ SIN_conservative_ADJ:0 "Southern Indian"
