@@ -1,6 +1,6 @@
 state={
 	id=807
-	name="West Prussia"
+	name="East Prussia"
 
 	history={
 		owner = POL
