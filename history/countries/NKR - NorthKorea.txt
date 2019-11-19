@@ -1,0 +1,13 @@
+capital = 1
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1947.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialist = 10
+	communism = 80
+	neutrality = 10
+}
