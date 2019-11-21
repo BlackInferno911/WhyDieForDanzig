@@ -1,0 +1,25 @@
+state={
+	id=808
+	name="Polish Belarus"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			3392 5
+		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = POG
+	}
+
+	provinces={
+		13206 318 3281 3392 3256 11528 6546 9520 11441 3412 422 513
+	}
+	manpower=932200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
