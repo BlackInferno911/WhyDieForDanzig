@@ -1,9 +1,9 @@
 focus_tree = {
-	id = america
+	id = america_focus
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 60
 			tag = USA
 		}
 	}
@@ -99,14 +99,14 @@ focus_tree = {
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = USA_desegregatethearmy 
+		prerequisite = {
+			focus = USA_desegregatethearmy
 		}
-		prerequisite = { 
-			focus = USA_meetwithnicholasroerich 
+		prerequisite = {
+			focus = USA_meetwithnicholasroerich
 		}
-		prerequisite = { 
-			focus = USA_thehealthcareact 
+		prerequisite = {
+			focus = USA_thehealthcareact
 		}
 		ai_will_do = {
 			factor = 1
@@ -220,14 +220,14 @@ focus_tree = {
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = USA_demilitarizenato 
+		prerequisite = {
+			focus = USA_demilitarizenato
 		}
-		prerequisite = { 
-			focus = USA_sellthepacificterritories 
+		prerequisite = {
+			focus = USA_sellthepacificterritories
 		}
-		prerequisite = { 
-			focus = USA_thedomesticindustries 
+		prerequisite = {
+			focus = USA_thedomesticindustries
 		}
 		ai_will_do = {
 			factor = 1
@@ -306,5 +306,5 @@ focus_tree = {
 		}
 	}
 
-#End of focuses 
+#End of focuses
  }
