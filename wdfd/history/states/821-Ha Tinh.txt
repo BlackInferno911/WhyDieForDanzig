@@ -1,0 +1,19 @@
+state = {
+  id = 821
+  name = "Ha Tinh"
+  state_category = rural
+  manpower = 458300
+
+  provinces = {
+    1302 4379 4397 7280 9988 10016 12297
+  }
+
+  history = {
+    owner = VIN
+    add_core_of = VIN
+    buildings = {
+      infrastructure = 4
+      arms_factory = 1
+    }
+  }
+}
