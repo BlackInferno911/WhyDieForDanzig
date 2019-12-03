@@ -17,7 +17,7 @@ state={
 		owner = VIN
 		add_claim_by = FRA
 		victory_points = {
-			4075 1
+			4401 5
 		}
 		buildings = {
 			infrastructure = 4

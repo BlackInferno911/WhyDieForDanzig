@@ -25,7 +25,7 @@ set_technology = {
 	early_bomber = 1
 	tactical_bomber1 = 1
 	CAS1 = 1
-	
+
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -74,19 +74,34 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
-	communism = 40
-	neutrality = 35
+	communism = 72
+	socialism = 3
+	anarchy = 12
+	junta = 5
+	monarchist = 4
+	conservative = 3
+	liberal = 1
 }
 
 create_country_leader = {
-	name = "Tou Samouth" 
+	name = "Tou Samouth"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+	expire = "1953.3.1"
+	ideology = marxism #insanity
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Tou Samouth"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	expire = "1953.3.1"
 	ideology = anarchist_communism #insanity
 	traits = {
-		
+
 	}
 }
 
@@ -98,20 +113,19 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = liberalism
 	traits = {
-		
+
 	}
 }
 
 create_country_leader = {
-	name = "Norodom Sihanouk" 
+	name = "Norodom Sihanouk"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-		
+
 	}
 }
 
 #couldnt find anything historical on fascism
-

@@ -1,5 +1,4 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
-
+﻿capital = 793
 oob = "LAO_1936"
 
 set_research_slots = 3
@@ -77,15 +76,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchist
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	communism = 25
-	neutrality = 50
+	monarchist = 64
+	neutrality = 11
+	junta = 3
+	fascism = 5
+	communism = 7
+	socialism = 2
+	conservative = 8
 }
 
 create_country_leader = {
@@ -95,7 +98,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 
@@ -104,20 +107,20 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = despotism
+	ideology = monarchist_subtype
 	traits = {
-		
+
 	}
 }
 
 create_country_leader = {
-	name = "Kou Voragong" 
+	name = "Kou Voragong"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-		
+
 	}
 }
 

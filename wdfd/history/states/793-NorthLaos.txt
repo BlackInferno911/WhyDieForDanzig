@@ -11,7 +11,7 @@ state={
 		add_core_of = LAO
 		add_claim_by = FRA
 		victory_points = {
-			1464 1
+			1464 5
 		}
 		buildings = {
 			infrastructure = 4

@@ -66,39 +66,41 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = progressive
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 35
-	fascism = 15
-	communism = 45
-	neutrality = 5
+	progressive = 31
+	socialism = 14
+	liberal = 27
+	conservative = 19
+	communism = 7
+	anarchy = 2
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {
-	name = "Phan Bôi Châu" 
+	name = "Phan Bôi Châu"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
 
 create_country_leader = {
-	name = "Truong Chinh" 
+	name = "Truong Chinh"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 
@@ -109,7 +111,18 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-		
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mã Thế Vinh"
+	desc = "POLIITCS_VINH_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = progressive_subtype
+	traits = {
+		#
 	}
 }
 
@@ -120,9 +133,6 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {
-		
+
 	}
 }
-
-
-
