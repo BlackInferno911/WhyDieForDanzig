@@ -81,6 +81,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	monarchist = 64
 	neutrality = 11
@@ -98,7 +99,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
-
+		#
 	}
 }
 
@@ -106,10 +107,10 @@ create_country_leader = {
 	name = "Sisavang Phoulivong"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
+	expire = "1965.3.1"
 	ideology = monarchist_subtype
 	traits = {
-
+		#
 	}
 }
 
